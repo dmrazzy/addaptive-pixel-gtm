@@ -56,7 +56,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 const queryPermission = require('queryPermission');
 const injectScript = require('injectScript');
 
-const url = 'https://s.dpmsrv.com/'+data.clientHash+'.min.js';
+const url = 'https://s.dpmsrv.com/'+encodeUriComponent(data.clientHash)+'.min.js';
 injectScript(url ,data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
