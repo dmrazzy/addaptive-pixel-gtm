@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -14,7 +14,6 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "AdDaptive Intelligence AIR",
-  "categories": ["ANALYTICS", "ADVERTISING"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -55,8 +54,9 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const queryPermission = require('queryPermission');
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
-const url = 'https://s.dpmsrv.com/'+encodeUriComponent(data.clientHash)+'.min.js';
+const url = 'https://s.dpmsrv.com/'+ encodeUriComponent(data.clientHash) +'.min.js';
 injectScript(url ,data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
@@ -99,6 +99,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 10/20/2020, 8:45:21 AM
+Created on 10/27/2020, 10:01:18 AM
 
 
