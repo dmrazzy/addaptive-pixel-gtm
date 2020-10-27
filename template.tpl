@@ -33,6 +33,7 @@ ___TEMPLATE_PARAMETERS___
     "type": "TEXT",
     "name": "clientHash",
     "displayName": "Client Hash ID",
+    "categories": ["ANALYTICS", "ADVERTISING"],	
     "simpleValueType": true,
     "valueValidators": [
       {
