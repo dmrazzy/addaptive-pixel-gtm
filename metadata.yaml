@@ -1,5 +1,5 @@
 homepage: "https://www.addaptive.com"
 documentation: "https://github.com/DatapointMedia/addaptive-pixel-gtm"
 versions:
-  - sha: b7e47c5d7d940309553640559b4fb38880bfa7d2
+  - sha: b37947897fd9234a26caeeab946d53fb52db0f81
     changeNotes: Initial release.
