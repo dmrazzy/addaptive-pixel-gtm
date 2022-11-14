@@ -1,6 +1,8 @@
 homepage: "https://www.addaptive.com"
 documentation: "https://github.com/AdDaptive/addaptive-pixel-gtm"
 versions:
+  - sha: c5a7efae3b9a1279e66fc61223b7afc7c4a5706a  
+    changeNotes: Logo update
   - sha: 9cf6d3fa8084f04d6f85bec8702f2a27a25c23ce  
     changeNotes: Minor branding updates
   - sha: b37947897fd9234a26caeeab946d53fb52db0f81
